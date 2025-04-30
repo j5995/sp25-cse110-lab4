@@ -29,4 +29,5 @@
     - e) false, true is converted to 1, and 1!=2
     - f) true, Boolean(2) is converted to true, and true is strictly equal to true
 15. == operator will convert both data left hand and right hand to equivalent data types, then compare the converted results. === operator doesn't convert the data types and strictly compares if the left is equal to the right as well as the same data type
-
+17. Returns the array [2,4,6], since it first runs modifyArray with the given inputs, and since doSomething is a callback function, it runs when it is called inside the modifyArray function, and therefore does its intended job of doubling each element in the array.
+19. Outputs 1 3 4 2, since the first setTimeout has 1 second of delay, but the second has no delay 
