@@ -12,4 +12,21 @@
 12. - a) student.name
     - b) student["Grad Year"]
     - c) alert(student.greeting)
-    - d) student["Favorite Teacher".name]
+    - d) student["Favorite Teacher"][name]
+    - e) student.courseLoad[0]
+13. - a) output is 32 since javascript changes the integer to string
+    - b) output is 1 since javascript changes the string to integer
+    - c) 3, null is converted to 0
+    - d) 3null, converts null to the string "null"
+    - e) 4, converts true to 1
+    - f) 0, false is converted to 0, null is converted to 0, since we use + operator
+    - g) 3undefined, converts undefined to the string "undefined"
+    - h) NaN, subtraction uses integers, and undefined becomes NaN
+14. - a) true, javascript converts the string 2 to the integer 2
+    - b) false, checks first char in each string, and 2 is lexicographically larger than 1, so the comparison is false
+    - c) true, "2" is converted into 2
+    - d) false, strict equality, both are not the same data type
+    - e) false, true is converted to 1, and 1!=2
+    - f) true, Boolean(2) is converted to true, and true is strictly equal to true
+15. == operator will convert both data left hand and right hand to equivalent data types, then compare the converted results. === operator doesn't convert the data types and strictly compares if the left is equal to the right as well as the same data type
+
